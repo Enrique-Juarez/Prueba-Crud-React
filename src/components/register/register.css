@@ -1,0 +1,33 @@
+.bodyRegister{
+
+}
+
+.cajaRegister{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.registroUsuario{
+
+}
+
+.inputRegistro{
+    width: 400px;
+    height: 60px;
+    margin: 15px;
+    border-color: #fac9b363;
+    border-width: 2px;
+}
+
+.btnRegistro{
+    width: 230px;
+    height: 60px;
+    background-color: #fac9b363;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}

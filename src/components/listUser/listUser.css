@@ -1,0 +1,56 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+
+  .buscador{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 60px;
+  }
+
+  .inputBuscador{
+    width: 400px;
+    height: 60px;
+    margin: 15px;
+    border-color: #fac9b363;
+    border-width: 2px;
+  }
+
+  .btnBuscador{
+    width: 230px;
+    height: 60px;
+    background-color: #fac9b363;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #users {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #fac9b363;
+    width: 100%;
+  }
+
+  #users td, #users th {
+    border: 1px solid #fac9b363;
+    padding: 8px;
+  }
+
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+
+  #users tr:hover {background-color: #fac9b363;}
+
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #fac9b3ab;
+    color: white;
+  }

@@ -1,0 +1,25 @@
+.cajaModificador{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.inputModificador{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    border-color: #fac9b363;
+    border-width: 2px;
+}
+
+.btnModificador{
+    width: 230px;
+    height: 40px;
+    background-color: #fac9b363;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
